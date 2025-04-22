@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width:100vw;
+            height:100vh;
+            display:grid;
+            row-gap: 2%;
+            column-gap: 1%;
+
+            grid-template-columns:repeat(3,1fr) ;
+            grid-template-rows: repeat(3,1fr);
+            /* border:1px solid yellow; */
+            padding: 20px;
+        }
+        .item1 {
+            grid-column: 1 / 3;
+            grid-row:1 / 2;
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .item2 {
+            grid-column: 3 / 4;
+            grid-row:1 / 2;
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .item3 {
+            grid-column: 1 / 2;
+            grid-row:2 / 4;
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .item4 {
+            grid-column: 2 / 3;
+            grid-row:2 / 3;
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .item5 {
+            grid-column: 2 / 3;
+            grid-row:3 / 4;
+            border: 2px solid black;
+            padding: 20px;
+
+        }
+        .item6 {
+            grid-column:3 / 4;
+            grid-row:2 / 4;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item1">
+            <img style="width:95%; height:26vh;" src="https://tse1.mm.bing.net/th?id=OIP.KqbzGYcoyUa7lPywqKrkUgHaEK&pid=Api&P=0&h=180 "alt="wallpaper">
+        </div>
+        <div class="item2">
+            <img style="width:max-content;" src="https://tse1.mm.bing.net/th?id=OIP.z5znsR0QVjRplUYT_68o_QHaEo&pid=Api&P=0&h=180 "alt="wallpaper">
+        </div>
+        <div class="item3">
+            <img style="width:auto;" src="https://tse4.mm.bing.net/th?id=OIP.-E44I2ihP_foFw3dXMBJ0wHaEK&pid=Api&P=0&h=180"alt="wallpaper">
+        </div>
+        <div class="item4">
+            <img style="width:auto;" src="https://tse2.mm.bing.net/th?id=OIP.xFq6woFay3dBb-w9BkX1rQHaEK&pid=Api&P=0&h=180"alt="wallpaper">
+        </div>
+        <div class="item5">
+            <img style="width:auto;" src="https://tse3.mm.bing.net/th?id=OIP.GAT6i5gXXxBsHnlJRSLn-wHaEK&pid=Api&P=0&h=180 "alt="wallpaper">
+        </div>
+        <div class="item6">
+            <img style="width:auto;" src="https://tse2.mm.bing.net/th?id=OIP.UHE58Q9C9e7ClSJR8DAubAHaEK&pid=Api&P=0&h=180 "alt="wallpaper">
+        </div>
+    </div>
+</body>
+</html>
