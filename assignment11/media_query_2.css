@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    row-gap: 5%;
+    padding: 1%;
+}
+@media  screen and (max-width:500px) {
+    .main{
+        grid-template-columns: 1fr;
+    }
+}
+@media  screen and (min-width:500px ) and (max-width:800px) {
+    .main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

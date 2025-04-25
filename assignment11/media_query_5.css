@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    text-align: center;
+}
+.box_1{
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 96vh;
+}
+.box_2{
+    background-color: green;
+    color: white;
+    width:40vw;
+    height: 48vh;
+}
+.box_3{
+    background-color: orange;
+    color: white;
+    width:40vw;
+    height: 48vh;
+}
+.box_4{
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 96vh;
+}
+@media screen and (max-width:500px) {
+    .main{
+        flex-direction: column;
+        height: 100vh;
+        justify-content: flex-start;
+    }
+    .box_1, .box_2, .box_3, .box_4{
+        width: 100vw;
+        height: 10vh;
+        padding: 5%;
+    }
+}

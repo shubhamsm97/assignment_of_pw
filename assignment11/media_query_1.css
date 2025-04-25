@@ -1,0 +1,27 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+
+}
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: wheat;
+height: 30%;
+
+}
+header>h5{
+    font-size: xx-large;
+}
+@media screen and (max-width: 600px){
+    header{
+        background-color: blue;
+        color: aliceblue;
+    }
+}

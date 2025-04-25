@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+li{
+    list-style-type: none;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nevigation_bar{
+
+    background-color:black;
+
+}
+.nevigation_bar>ul{
+    display: flex;
+    justify-content: space-around;
+}
+@media  screen and (max-width:768px) {
+    .nevigation_bar{
+        background-color: gray;
+    }
+    .nevigation_bar>ul{
+        display: block;
+        text-align: center;
+    }
+}
